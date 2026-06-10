@@ -394,7 +394,7 @@ function copyPlan() {
     
     if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(msg).then(() => {
-            alert("Los parámetros del plan han sido copiados al portapapeles. Procede a pegarlo en el canal de WhatsApp 🚀");
+            alert("Los parámetros del plan han sido copiados al portapapeles. Procede a pegarlo en el chat de WhatsApp con Erick🚀");
         });
     } else {
         alert("API de portapapeles no soportada. Toma una captura de pantalla para confirmar el despliegue 📱");
